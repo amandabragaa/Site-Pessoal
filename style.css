@@ -1,0 +1,94 @@
+section {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px  20px;
+    background-color: #D9A679;
+}
+
+.logo img {
+    display: block;  
+
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu ul li {
+    margin: 0;
+}
+
+#menu ul li a {
+    padding: 14px 20px;
+    color: #A63C3C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu ul li a:hover{
+    background-color: #55555520;
+}
+
+#home {
+    background-color: #252026;
+    display: flex;
+}
+
+#fotoAmanda {
+    background-image: url("assets/photos/amanda.jpeg");
+    width: 650px;
+    height: 900px;
+    background-size: cover;
+    background-position: 90% 100%;
+}
+
+.homeTitulo {
+    color: #FFFFFF;
+    font-family: "Rubik Mono One", sans-serif;
+    font-size:30px;
+    padding-top: 400px;
+    padding-left: 746px;
+}
+
+.homeDev {
+    color: #B6B6B6;
+    font-family: "rubik", sans-serif;
+    width: 341px;
+    height: 48px;
+    padding-top: 400px;
+    padding-left: 846px
+}
+
+.curriculo {
+    width: 220px;
+    height: 47px;
+    background: #A63C3C;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 750px;
+}
+
+#sobreMim {
+    background-color: #D9A679;
+}
+
+#skills {
+    background-color: #F2ECE4;
+}
+
+#projetos {
+    background-color: #A66E4E;
+}
+
+#contatos {
+    background-color: #A63C3C;
+}
