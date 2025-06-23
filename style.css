@@ -11,7 +11,8 @@ section {
 }
 
 .logo img {
-    display: block;  
+    display: block; 
+    height: 24px; 
 
 }
 
@@ -42,10 +43,11 @@ section {
     display: flex;
 }
 
+
 #fotoAmanda {
     background-image: url("assets/photos/amanda.jpeg");
     width: 650px;
-    height: 900px;
+    height: 970px;
     background-size: cover;
     background-position: 90% 100%;
 }
@@ -53,18 +55,27 @@ section {
 .homeTitulo {
     color: #FFFFFF;
     font-family: "Rubik Mono One", sans-serif;
-    font-size:30px;
-    padding-top: 400px;
-    padding-left: 746px;
+    font-size:3.75rem;
+    font-weight: 400;
+    width: 425px;
+    height: 140px;
+    margin-top: 275px;
+    margin-left: 546px;
+    line-height: 100%;
+    letter-spacing: 30%;
 }
 
 .homeDev {
     color: #B6B6B6;
-    font-family: "rubik", sans-serif;
+    font-family: "rubik", sans-serif;  
+    font-size: 2.19rem;
+    font-weight: 400;
     width: 341px;
     height: 48px;
-    padding-top: 400px;
-    padding-left: 846px
+    margin-left: 548px; 
+    line-height: 100%; 
+    letter-spacing: 0%;
+    display: inline;
 }
 
 .curriculo {
@@ -73,16 +84,35 @@ section {
     background: #A63C3C;
     border: none;
     border-radius: 8px;
-    margin-top: 30px;
-    margin-left: 750px;
+    margin-left: 550px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+
+    img {
+        width: 15px;
+        height: 20px;
+    }
+
+    p {
+        font-size: 1.375rem;
+        padding: 10px;
+    }
 }
 
+
+
 #sobreMim {
-    background-color: #D9A679;
+    background-color: #f6caa4;
 }
 
 #skills {
-    background-color: #F2ECE4;
+    background-color: #E0D7C8;
 }
 
 #projetos {
