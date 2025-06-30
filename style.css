@@ -2,39 +2,28 @@ section {
     height: 100vh;
 }
 
-.header {
+#menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px  20px;
+    padding: 14px  63px;
     background-color: #D9A679;
 }
 
-.logo img {
-    display: block; 
-    height: 24px; 
 
-}
 
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#menuLinks {
     display: flex;
 }
 
-#menu ul li {
-    margin: 0;
-}
-
-#menu ul li a {
+#menuLinks a {
     padding: 14px 20px;
     color: #A63C3C;
     text-decoration: none;
     font-weight: bold;
 }
 
-#menu ul li a:hover{
+#menuLinks a:hover{
     background-color: #55555520;
 }
 
@@ -112,13 +101,11 @@ section {
 }
 
 #skills {
-    background-color: #E0D7C8;
+    background-color: #FFFFFF;
 }
 
-#projetos {
-    background-color: #A66E4E;
-}
+
 
 #contatos {
-    background-color: #A63C3C;
+    background-color: #A66E4E;
 }
