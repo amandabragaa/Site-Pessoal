@@ -1,26 +1,31 @@
+* {
+    font-family: "Rubik", sans-serif
+}
+
 section {
     height: 100vh;
 }
 
 #menu {
     display: flex;
+    position: fixed;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     padding: 14px  63px;
     background-color: #D9A679;
+    box-shadow: 0px 4px 4px 0px #00000025;
 }
-
-
 
 #menuLinks {
     display: flex;
-}
 
-#menuLinks a {
-    padding: 14px 20px;
+    a {
+      padding: 14px 20px;
     color: #A63C3C;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold;  
+    }
 }
 
 #menuLinks a:hover{
@@ -29,68 +34,53 @@ section {
 
 #home {
     background-color: #252026;
-    display: flex;
+    padding: 60px 0px;
+
+    h1 {
+        color: #FFFFFF;
+        font-family: "Rubik Mono One", sans-serif;
+        font-size: 3.8rem;
+        font-weight: 400;
+        /* width: 425px;
+        height: 140px;
+        margin-top: 275px;
+        margin-left: 546px;
+        line-height: 100%;
+        letter-spacing: 30%; */
+    }
+
+    h2 {
+        color: #B6B6B6;
+        font-size: 2.4rem;
+        font-weight: 400;
+        /* width: 341px;
+        height: 48px;
+        margin-left: 548px; 
+        line-height: 100%; 
+        letter-spacing: 0%;
+        display: inline; */
+    }
 }
 
-
-#fotoAmanda {
+/* #fotoAmanda {
     background-image: url("assets/photos/amanda.jpeg");
     width: 650px;
     height: 970px;
     background-size: cover;
     background-position: 90% 100%;
-}
+} */
 
-.homeTitulo {
-    color: #FFFFFF;
-    font-family: "Rubik Mono One", sans-serif;
-    font-size:3.75rem;
-    font-weight: 400;
-    width: 425px;
-    height: 140px;
-    margin-top: 275px;
-    margin-left: 546px;
-    line-height: 100%;
-    letter-spacing: 30%;
-}
-
-.homeDev {
-    color: #B6B6B6;
-    font-family: "rubik", sans-serif;  
-    font-size: 2.19rem;
-    font-weight: 400;
-    width: 341px;
-    height: 48px;
-    margin-left: 548px; 
-    line-height: 100%; 
-    letter-spacing: 0%;
-    display: inline;
-}
-
-.curriculo {
-    width: 220px;
-    height: 47px;
-    background: #A63C3C;
-    border: none;
-    border-radius: 8px;
-    margin-left: 550px;
-    margin-top: 60px;
+.downloadButton{
+    background-color: #A63C3C;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 8px;
+    width: fit-content;
+    padding: 8px 14px;
     color: #FFFFFF;
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
+    border-radius: 8px;
 
-    img {
-        width: 15px;
-        height: 20px;
-    }
-
-    p {
-        font-size: 1.375rem;
-        padding: 10px;
+    a {
+        padding-left: 11px;
     }
 }
 
